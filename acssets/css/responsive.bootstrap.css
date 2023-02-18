@@ -47,7 +47,7 @@
 }
 
 @media(max-width :739px) {
-    
+
     .main-banner {
         height: auto;
     }
@@ -55,6 +55,7 @@
     .d-flex.main-banner {
         flex-direction: column;
     }
+
     .col-md-3 {
         flex: none !important;
     }
@@ -79,7 +80,7 @@
         margin-bottom: 50px;
     }
 
-    .col-9> h1 {
+    .col-9>h1 {
         font-size: 0.8rem;
         margin-top: 0px;
         margin-bottom: 0;
@@ -88,28 +89,37 @@
 
     .decript {
         font-size: 1rem;
-        text-align:justify;
+        text-align: justify;
     }
+
     .blog-img {
         position: absolute;
         width: calc(100% - 40%);
     }
-    #current-time{
+
+    #current-time {
         margin-top: 20px;
     }
-    #current-time, #hvn{
+
+    #current-time,
+    #hvn {
         font-size: 15px;
     }
-    .text-center{
+
+    .text-center {
         font-size: 2rem;
     }
+
     .p-4 {
-        padding: 0.8rem!important;
+        padding: 0.8rem !important;
     }
-    .mb-4, .my-4 {
-        margin-bottom: 0!important;
+
+    .mb-4,
+    .my-4 {
+        margin-bottom: 0 !important;
     }
+
     .text-center.p-3 {
-        padding: 0.5rem!important;
+        padding: 0.5rem !important;
     }
 }
