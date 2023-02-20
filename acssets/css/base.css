@@ -430,3 +430,12 @@ input:placeholder-shown~#menu-search {
     color: var(--danger-color);
     font-weight: bold;
 }
+
+.mb-4,
+.my-4 {
+    margin-bottom: 0 !important;
+}
+
+.p-4 {
+    padding: 1rem !important;
+}
